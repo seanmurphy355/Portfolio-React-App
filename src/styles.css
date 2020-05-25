@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+.App {
+  font-family: Helevtica;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  font-size: 14px;
+  color: #000000;
+  background-color: #212121;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Global */
+html {
+  overflow: hidden;
+}
+
+.Particles-js {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  height: 100%;
+  display: "flex";
+}
+
+.headertext {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  line-height: 0.4em;
+  text-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.2);
+  transition: text-shadow 0.4s, transform 0.4s;
+  overflow: wrap;
+  font-weight: 800;
+  font-size: 52px;
+}
+
+.UserResume {
+  width: 75%;
+  height: 80vh;
+}
+.moveResume {
+  margin-top: -94vh;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: -15%;
+}
+
+.ContactText {
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 41%;
+  width: 100%;
+  line-height: 0.4em;
+  text-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.2);
+  transition: text-shadow 0.4s, transform 0.4s;
+  overflow: wrap;
+  font-weight: 800;
+  font-size: 52px;
+}
+
+.Container {
+  width: 70%;
+  align-self: center;
+  background-color: transparent;
+  padding: 1.25rem;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid #0af;
+  justify-content: center;
+  align-items: center;
+}
+
+.MyContainer {
+  align-content: center;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.AboveText {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#emailSubject {
+  margin-left: 1vh;
+  margin-top: 10px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 15px solid "#333333";
+  padding: 13px;
+  margin-bottom: 1%;
+  width: 20%;
+  outline: 0;
+  position: relative;
+}
+
+#yourEmail {
+  margin-left: 1vh;
+  margin-top: 10px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 15px solid "#333333";
+  padding: 13px;
+  margin-bottom: 1%;
+  width: 20%;
+  outline: 0;
+  position: relative;
+}
+
+#emailMessage {
+  margin-top: 30px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 15px solid "#333333";
+  padding: 13px;
+  margin-bottom: 35px;
+  width: 22%;
+  height: 22vh;
+  outline: 0;
+  position: relative;
+}
+
+.btn {
+  margin-bottom: 0%;
+}
+
+.btn {
+  -webkit-tap-highlight-color: transparent;
+  outline: None;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+
+  box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.2);
+  box-sizing: inherit;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  height: 40px;
+  letter-spacing: 0.5px;
+  line-height: 42px;
+  padding: 0px 1rem;
+  pointer-events: all;
+  overflow: hidden;
+  border: None;
+
+  width: 10%;
+  margin: 10px;
+  /* DO WE WANT THE TRANSFORM INITIALLY CAUSES ISSUES*/
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  transition: box-shadow 0.4s, transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+#provideEmail {
+  margin-left: -3%;
+  justify-content: center;
+  align-items: center;
+  position: 0;
+}
+
+#Subject {
+  margin-left: -3%;
+  justify-content: center;
+  align-items: center;
+  position: 0;
+}
+
+.theGrid {
+  top: 30%;
+  width: 100%;
+  position: fixed;
+}
