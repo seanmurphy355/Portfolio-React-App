@@ -5,65 +5,39 @@ import MyCardTwo from "./CardTwo";
 import MyCardThree from "./CardThree";
 import MyCardFour from "./CardFour";
 import MyCardFive from "./CardFive";
-import Grid from "@material-ui/core/Grid";
+import { Grid } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import { spacing } from "@material-ui/system";
+import GridBase from "@material-ui/core/Grid";
+import Collapse from "@material-ui/core/Collapse";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    overflow: "hidden",
-    padding: theme.spacing(0, 10),
-    marginRight: theme.spacing(30),
+const useStlyes = makeStyles({
+  girdContainer: {
+    paddingTop: 200,
   },
-  paper: {
-    margin: `${theme.spacing(-10)}px auto`,
-    padding: theme.spacing(10),
-  },
-}));
+});
 
 export default function SpacingGrid() {
-  const classes = useStyles();
+  const classes = useStlyes();
   return (
-    <Grid pt={0}>
-      <div className={classes.root}>
-        <Grid
-          alignContent="center"
-          container
-          wrap="nowrap"
-          spacing={10}
-          grid-xs-auto
-        >
-          >
-          <Paper className={classes.paper}>
-            <Grid item container wrap="nowrap">
-              <Grid>
-                <MyCard />
-              </Grid>
-            </Grid>
-          </Paper>
-          <Paper className={classes.paper} container wrap="nowrap">
-            <Grid>
-              <MyCardTwo />
-            </Grid>
-          </Paper>
-          <Paper className={classes.paper} container wrap="nowrap">
-            <Grid>
-              <MyCardThree />
-            </Grid>
-          </Paper>
-          <Paper className={classes.paper} container wrap="nowrap">
-            <Grid>
-              <MyCardFour />
-            </Grid>
-          </Paper>
-          <Paper className={classes.paper} container wrap="nowrap">
-            <Grid>
-              <MyCardFive />
-            </Grid>
-          </Paper>
+    <div className={classes.root}>
+      <Grid container spacing={10} justify="space-evenly">
+        <Grid item xs={12} sm={6} md={4} lg={2}>
+          <MyCard />
         </Grid>
-      </div>
-    </Grid>
+        <Grid item xs={12} sm={6} md={4} lg={2}>
+          <MyCardTwo />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4} lg={2}>
+          <MyCardThree />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4} lg={2}>
+          <MyCardFour />
+        </Grid>
+        <Grid item xs={12} sm={6} md={4} lg={2}>
+          <MyCardFive />
+        </Grid>
+      </Grid>
+    </div>
   );
 }

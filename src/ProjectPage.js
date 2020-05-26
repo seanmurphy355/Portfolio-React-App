@@ -10,12 +10,11 @@ import "./styles.css";
 export default function ProjectPage() {
   return (
     <div className="App">
-      <div className="Paticles-JS">
-        <NewParticle />
-      </div>
-      <Project />
       <div className="theGrid">
         <SpacingGrid />
+      </div>
+      <div className="Paticles-JS">
+        <NewParticle />
       </div>
       <NavComponent />
     </div>
