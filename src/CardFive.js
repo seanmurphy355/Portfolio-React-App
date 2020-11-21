@@ -12,6 +12,7 @@ import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { GitHub } from "@material-ui/icons";
 import Button from "@material-ui/core/Button";
+import WebIcon from '@material-ui/icons/Web';
 import "./styles.css";
 
 import OndemandVideoIcon from "@material-ui/icons/OndemandVideo";
@@ -68,7 +69,7 @@ export default function MyCardThree() {
           component="p"
           style={{ fontWeight: 50, fontSize: 12, marginBottom: 20 }}
         >
-          Completion status: Incomplete
+          Completion status: Complete
           <br />
         </Typography>
         <Typography variant="h5" component="h2"></Typography>
@@ -77,14 +78,14 @@ export default function MyCardThree() {
           color=""
           style={{ marginBottom: 15, fontWeight: 300, fontSize: 14 }}
         >
-          Project Tools: N/A as of now! Sorry
+          Project Type: BlockChain + Web3
         </Typography>
         <Typography
           variant="body2"
           component="p"
           style={{ fontWeight: 50, fontSize: 12 }}
         >
-          Project tools: N/A at this current moment most likely Solidity
+          Project tools: Solidity, Ganache, Truffle, Visual Studios, React, Material UI, Web3
           <br />
         </Typography>
       </CardContent>
@@ -93,10 +94,20 @@ export default function MyCardThree() {
           aria-label="GitHub"
           style={{ backgroundColor: "#333333", color: "#fff" }}
           target="_blank"
-          href=""
+          href="https://github.com/seanmurphy355/Galaxy.Finance"
         >
           <GitHub />
         </IconButton>
+
+        <IconButton
+          aria-label="GitHub"
+          style={{ backgroundColor: "#333333", color: "#fff" }}
+          target="_blank"
+          href="https://glxy.finance/"
+        >
+          <WebIcon/>
+        </IconButton>
+        
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
@@ -112,7 +123,7 @@ export default function MyCardThree() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph style={{ fontWeight: 50 }}>
-            N/A
+          Galaxy.Finance is a ERC20 based cryptocurrency project that was created using the truffle test suite. This project attempts to emulate what a general staking platform would look like in the defi space. Note: none of the contracts involved in this project were actually deployed to the Ethereum mainnet. A link to the project dApp can be found above; The dApp provides a link to a 10 min demo video of the project.
           </Typography>
         </CardContent>
       </Collapse>

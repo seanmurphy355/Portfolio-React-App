@@ -61,7 +61,7 @@ export default function MyCardTwo() {
           gutterBottom
           style={{ marginBottom: 15, fontWeight: "360", fontSize: 24 }}
         >
-          Resilient trading algorithms
+          Trading algorithms
         </Typography>
         <Typography
           variant="body2"
