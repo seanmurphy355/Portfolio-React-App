@@ -61,14 +61,14 @@ export default function MyCardTwo() {
           gutterBottom
           style={{ marginBottom: 15, fontWeight: "360", fontSize: 24 }}
         >
-          Covid 19-Tracker
+          Resilient trading algorithms
         </Typography>
         <Typography
           variant="body2"
           component="p"
           style={{ fontWeight: 50, fontSize: 12, marginBottom: 20 }}
         >
-          Completion status: incomplete
+          Completion status: Complete
           <br />
         </Typography>
         <Typography variant="h5" component="h2"></Typography>
@@ -77,14 +77,14 @@ export default function MyCardTwo() {
           color=""
           style={{ marginBottom: 15, fontWeight: 300, fontSize: 14 }}
         >
-          Project Type: Data Science + Stats
+          Project Type: Data Analysis + Algorithm Iteration
         </Typography>
         <Typography
           variant="body2"
           component="p"
           style={{ fontWeight: 50, fontSize: 12 }}
         >
-          Project Tools: Python, Jupyter Notebook, Pandas, MatPlot, Plotly
+          Project Tools: Python, Jupyter Notebook, Pandas, QuantConnect
           <br />
         </Typography>
       </CardContent>
@@ -93,7 +93,7 @@ export default function MyCardTwo() {
           aria-label="GitHub"
           style={{ backgroundColor: "#333333", color: "#fff" }}
           target="_blank"
-          href=""
+          href="https://github.com/seanmurphy355/Algorithmic-Trading-Stratagies"
         >
           <GitHub />
         </IconButton>
@@ -112,7 +112,7 @@ export default function MyCardTwo() {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph style={{ fontWeight: 50 }}>
-            Some Description
+          Tested and deployed various resilient trading strategies on the QuantConnect platform. Each of the designed strategies utilizes some sort of risk management system that ranges from moderate to extreme.The overarching goal of this project was to uncover resilient trading strategies that can but utlized long term by the elderly.
           </Typography>
         </CardContent>
       </Collapse>
