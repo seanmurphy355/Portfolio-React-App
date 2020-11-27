@@ -44,7 +44,7 @@ html {
   transition: text-shadow 0.4s, transform 0.4s;
   overflow: wrap;
   font-weight: 800;
-  font-size: 52px;
+  font-size: 5.6vh;
 }
 
 .UserResume {
