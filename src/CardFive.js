@@ -70,7 +70,7 @@ export default function MyCardThree() {
           color=""
           style={{ marginBottom: 15, fontWeight: 300, fontSize: 14 }}
         >
-          Project Type: BlockChain + Web3
+          Project Type: BlockChain + Web3 Applications
         </Typography>
         <Typography
           variant="body2"
