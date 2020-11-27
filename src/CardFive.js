@@ -64,13 +64,7 @@ export default function MyCardThree() {
         >
           Solidity dApp
         </Typography>
-        <Typography
-          variant="body2"
-          component="p"
-          style={{ fontWeight: 50, fontSize: 12, marginBottom: 20 }}
-        >
-          <br />
-        </Typography>
+      
         <Typography variant="h5" component="h2"></Typography>
         <Typography
           className={classes.pos}
