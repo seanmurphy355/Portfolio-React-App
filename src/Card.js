@@ -69,7 +69,7 @@ export default function My() {
           color=""
           style={{ marginBottom: 15, fontWeight: 300, fontSize: 14 }}
         >
-          Project Type: Writing/Tech Writing
+          Project Type: Writing/Tech Writing Samples
         </Typography>
         <Typography
           variant="body2"

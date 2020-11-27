@@ -69,7 +69,7 @@ export default function MyCardFour() {
           color=""
           style={{ marginBottom: 15, fontWeight: 300, fontSize: 14 }}
         >
-          Project Type: Database Utilization
+          Project Type: Database Utilization/Implementation
         </Typography>
         <Typography
           variant="body2"
