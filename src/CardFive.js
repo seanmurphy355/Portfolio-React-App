@@ -69,7 +69,6 @@ export default function MyCardThree() {
           component="p"
           style={{ fontWeight: 50, fontSize: 12, marginBottom: 20 }}
         >
-          Completion status: Complete
           <br />
         </Typography>
         <Typography variant="h5" component="h2"></Typography>
@@ -107,7 +106,6 @@ export default function MyCardThree() {
         >
           <WebIcon/>
         </IconButton>
-        
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
