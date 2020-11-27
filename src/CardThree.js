@@ -63,14 +63,6 @@ export default function MyCardThree() {
         >
           Hashmap
         </Typography>
-        <Typography
-          variant="body2"
-          component="p"
-          style={{ fontWeight: 50, fontSize: 12, marginBottom: 20 }}
-        >
-          Completion status: Complete
-          <br />
-        </Typography>
         <Typography variant="h5" component="h2"></Typography>
         <Typography
           className={classes.pos}
