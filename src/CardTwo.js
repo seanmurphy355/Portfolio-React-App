@@ -11,6 +11,8 @@ import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import { GitHub } from "@material-ui/icons";
+import MovieIcon from '@material-ui/icons/Movie';
+import WebIcon from '@material-ui/icons/Web';
 import Button from "@material-ui/core/Button";
 import "./styles.css";
 
@@ -88,6 +90,22 @@ export default function MyCardTwo() {
           href="https://github.com/seanmurphy355/Algorithmic-Trading-Stratagies"
         >
           <GitHub />
+        </IconButton>
+        <IconButton
+          aria-label="GitHub"
+          style={{ backgroundColor: "#333333", color: "#fff" }}
+          target="_blank"
+          href="https://www.youtube.com/watch?v=QO9c5Rrbxrw"
+        >
+          <MovieIcon/>
+        </IconButton>
+        <IconButton
+          aria-label="GitHub"
+          style={{ backgroundColor: "#333333", color: "#fff" }}
+          target="_blank"
+          href="https://www.quantconnect.com/"
+        >
+          <WebIcon/>
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {
